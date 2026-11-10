@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+
+# 数据与权重（体积原因不入库）
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+data/*.parquet
+data/*.mp4
+
+# 日志与临时文件
+*.log
+_*.log
+*.tmp
+~$*
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
